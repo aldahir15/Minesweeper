@@ -69,5 +69,5 @@ class Game
   end
 end
 
-new_game = Game.new(Board.new(3))
-new_game.play(1)
+new_game = Game.new(Board.new(9))
+new_game.play(20)

@@ -25,13 +25,13 @@ class Board
       puts "#{i} #{row.map do |x|
         if x.visible
           if x.val == 9 # 9 IS THE BOMB!!
-            "*"
+            "💣"
           else
             x.val.to_s
           end
         else
           if x.flagged
-            'f'
+            '🚩'
           else
            '▢'
          end
